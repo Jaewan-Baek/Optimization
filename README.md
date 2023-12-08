@@ -10,7 +10,7 @@
   <span style="font-size:3px;">Image by Julie Bang © Investopedia, 2019</span>
 
  <p align="center">
-  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/2776ab59-98ff-4a57-9bed-900769784536" width="700" height="780" title="Black box function">
+  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/2776ab59-98ff-4a57-9bed-900769784536" width="700" height="780" title="Bayesian Optimization">
   <br>
   <span style="font-size:15px;">Wikipedia.org </span>
 
@@ -21,8 +21,11 @@
 
 
 # Contents
-* Installation
-* Surrogate model
-* Acquisition function
-* [Concept](#Usage)
-* 
+* [Installation](#Installation)
+* [Surrogate Model](#Surrogate-Model)
+* [Acquisition Function](#Acquisition-Function)
+* [Usage](#Usage)
+* [Dataset](#Dataset)
+* [License](#License)
+* [References](#References)
+* [Future Work](#Future-Work)
