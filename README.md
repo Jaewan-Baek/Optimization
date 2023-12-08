@@ -5,16 +5,15 @@
 
  
 <p align="center">
-  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/0a859fd4-77d2-472c-bad6-7ec737f57e9e" width="700" height="370" title="Black box function">
+  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/0a859fd4-77d2-472c-bad6-7ec737f57e9e" width="500" height="300" title="Black box function">
   <br>
   <span style="font-size:3px;">Image by Julie Bang © Investopedia, 2019</span>
-</p>
 
-<cite> Image by Julie Bang © Investopedia, 2019 
- {: .small}
+ <p align="center">
+  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/2776ab59-98ff-4a57-9bed-900769784536" width="700" height="780" title="Black box function">
+  <br>
+  <span style="font-size:15px;">Wikipedia.org </span>
 
- <cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
-{: .small}
 
 
 * **Surrogate model**
