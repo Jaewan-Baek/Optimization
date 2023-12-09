@@ -62,11 +62,16 @@
 # Acquisition Function
 * surrogate model 을 통한 목적함수에 대한 현재까지의 확률적 추정 결과를 바탕으로 다음 파라미터의 집합을 사용자에게 제시해준다.
 * **탐색(exploration)** 과 **활용(exploitation)** 이 두 성질을 조절해 이용하며, 이에 따라 여러 기법이 있는데 대표적으로 **EI(Expected Improvement)**, **PI(Probability of Improvement)**, **LCB(Lower Confidence Bound)** 등이 있다.
+ <p align="center">
+  <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/bb3b9fea-b822-4960-9bad-153abd6b6aa8" width="500" height="400" title="Bayesian Optimization">
+  <br>
+  <span style="font-size:15px;">Image from https://www.iro.umontreal.ca/~bengjoy/cifar/NCAP2014-summerschool/slides/Ryan_adams_140814_bayesopt_ncap.pdf</span>
 
  <p align="center">
   <img src="https://github.com/Jaewan-Baek/Optimization/assets/144581812/2776ab59-98ff-4a57-9bed-900769784536" width="700" height="780" title="Bayesian Optimization">
   <br>
   <span style="font-size:15px;">Wikipedia.org </span>
+
 
 # Installation
 scikit-optimize requires
