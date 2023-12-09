@@ -69,7 +69,18 @@
   <span style="font-size:15px;">Wikipedia.org </span>
 
 # Installation
+scikit-optimize requires
 
+  * Python >= 3.6
+  * NumPy (>= 1.13.3)
+  * SciPy (>= 0.19.1)
+  * joblib (>= 0.11)
+  * scikit-learn >= 0.20
+  * matplotlib >= 2.0.0
+
+``` python
+pip install scikit-optimize
+```
 
 
 
@@ -83,7 +94,9 @@
 
 
 # License
+This repository is licensed under the MIT license. See LICENSE for details.
 
+Click here to see the License information --> [License](LICENSE)
 
 # References
 
