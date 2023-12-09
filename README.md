@@ -127,7 +127,7 @@ Click here to see the License information --> [License](LICENSE)
 * [https://scikit-optimize.github.io/stable](https://scikit-optimize.github.io/stable/)
 * Gan, Weiao, Ziyuan Ji, and Yongqing Liang. "Acquisition functions in bayesian optimization." 2021 2nd International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE). IEEE, 2021.
 * Snoek, Jasper, Hugo Larochelle, and Ryan P. Adams. "Practical bayesian optimization of machine learning algorithms." Advances in neural information processing systems 25 (2012).
-* 
+* Brochu, Eric, Vlad M. Cora, and Nando De Freitas. "A tutorial on Bayesian optimization of expensive cost functions, with application to active user modeling and hierarchical reinforcement learning." arXiv preprint arXiv:1012.2599 (2010).
 
 
 # Future Work
