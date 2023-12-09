@@ -1,6 +1,6 @@
 <div align="center">
 
-## <span style="color:blue; font-size:48px;">💻데이터 기반의 머신러닝 기법을 이용한 Optimization🟦</span>
+## <span style="color:blue; font-size:48px;">💻데이터 기반의 머신러닝 기법을 이용한 Optimization⌛</span>
 
 </div>
 
@@ -82,10 +82,17 @@ scikit-optimize requires
 pip install scikit-optimize
 ```
 
-
-
 # Usage
+~~~ python
+import numpy as np
+from skopt import gp_minimize
 
+def f(x):
+    return (np.sin(5 * x[0]) * (1 - np.tanh(x[0] ** 2)) +
+            np.random.randn() * 0.1)
+
+res = gp_minimize(f, [(-2.0, 2.0)])
+~~~
 
 # Dataset
 * 사용한 데이터셋은 위스콘신 유방암 진단데이터이다.
@@ -94,7 +101,7 @@ pip install scikit-optimize
 
 
 # License
-This repository is licensed under the MIT license. See LICENSE for details.
+This repository is licensed under the BSD 3-Clause license. See LICENSE for details.
 
 Click here to see the License information --> [License](LICENSE)
 
