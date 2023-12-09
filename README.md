@@ -92,6 +92,19 @@ def f(x):
             np.random.randn() * 0.1)
 
 res = gp_minimize(f, [(-2.0, 2.0)])
+print("x*=%.2f f(x*)=%.2f" % (res.x[0], res.fun))
+~~~
+
+for 루프를 적용할 수도 있다.
+~~~ python
+from skopt import Optimizer
+opt = Optimizer([(-2.0, 2.0)])
+for i in range(20):
+    suggested = opt.ask()
+    y = f(suggested)
+    res = opt.tell(suggested, y)
+print("x*=%.2f f(x*)=%.2f" % (res.x[0], res.fun))
+x*=0.27 f(x*)=-0.15
 ~~~
 
 # Dataset
@@ -106,9 +119,13 @@ This repository is licensed under the BSD 3-Clause license. See LICENSE for deta
 Click here to see the License information --> [License](LICENSE)
 
 # References
+* [https://scikit-optimize.github.io/stable](https://scikit-optimize.github.io/stable/)
+* Gan, Weiao, Ziyuan Ji, and Yongqing Liang. "Acquisition functions in bayesian optimization." 2021 2nd International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE). IEEE, 2021.
+* Snoek, Jasper, Hugo Larochelle, and Ryan P. Adams. "Practical bayesian optimization of machine learning algorithms." Advances in neural information processing systems 25 (2012).
+* 
 
 
 # Future Work
-
+* 추후 연구로는 Chemical Synthesis 분야에 기계 학습을 적용시켜 화학 구조 최적화를 해볼 예정입니다!😊
 
 
