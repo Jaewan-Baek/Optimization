@@ -46,7 +46,9 @@
 
 
 # Dataset
-
+* 사용한 데이터셋은 위스콘신 유방암 진단데이터이다.
+* 원본 데이터에서 30개의 특성 중 6개의 특성(figure)값과 596개의 데이터를 사용했다.
+* https://github.com/Yorko/mlcourse.ai/tree/main/data
 
 
 # License
