@@ -116,7 +116,8 @@ x*=0.27 f(x*)=-0.15
 # Dataset
 * 사용한 데이터셋은 위스콘신 유방암 진단데이터이다.
 * 원본 데이터에서 30개의 특성 중 6개의 특성(figure)값과 596개의 데이터를 사용했다.
-* https://github.com/Yorko/mlcourse.ai/tree/main/data
+* Click here to see the License information --> [Data](data)
+* Source - https://github.com/Yorko/mlcourse.ai/tree/main/data
 
 
 # License
@@ -125,7 +126,7 @@ This repository is licensed under the BSD 3-Clause license. See LICENSE for deta
 Click here to see the License information --> [License](LICENSE)
 
 # References
-* [https://scikit-optimize.github.io/stable](https://scikit-optimize.github.io/stable/)
+* **(scikit-optimize)** [https://scikit-optimize.github.io/stable](https://scikit-optimize.github.io/stable/)
 * Gan, Weiao, Ziyuan Ji, and Yongqing Liang. "Acquisition functions in bayesian optimization." 2021 2nd International Conference on Big Data & Artificial Intelligence & Software Engineering (ICBASE). IEEE, 2021.
 * Snoek, Jasper, Hugo Larochelle, and Ryan P. Adams. "Practical bayesian optimization of machine learning algorithms." Advances in neural information processing systems 25 (2012).
 * Brochu, Eric, Vlad M. Cora, and Nando De Freitas. "A tutorial on Bayesian optimization of expensive cost functions, with application to active user modeling and hierarchical reinforcement learning." arXiv preprint arXiv:1012.2599 (2010).
